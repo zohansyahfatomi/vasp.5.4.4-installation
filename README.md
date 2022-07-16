@@ -92,6 +92,15 @@ It is depend on the location of your VASP installation. In my example:
 PATH=/home/dell/vasp.5.4.4/build/std:$PATH
 ```
 
+## Source it!
+```
+source ~/.bashrc
+```
+or if you are using zsh then:
+```
+source ~/.zshrc
+```
+
 ## Try the magic!
 ```
 mpirun -np 8 vasp
